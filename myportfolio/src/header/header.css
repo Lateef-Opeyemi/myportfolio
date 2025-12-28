@@ -86,7 +86,7 @@ body {
   width: 28px;
   height: 21px;
   cursor: pointer;
-  z-index: 1100; /* highest so it remains on top when toggling */
+  z-index: 1100; 
   background: transparent;
   border: 0;
 }
@@ -178,7 +178,7 @@ body {
 
 /* Intro text */
 .me {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -187,7 +187,12 @@ body {
   margin: 1rem auto;
   animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
 }
-
+#home{
+    scroll: margin top 80px;
+}
+html{
+    scroll-behavior: smooth;
+}
 
 @keyframes typing {
   from { max-width: 0; }
